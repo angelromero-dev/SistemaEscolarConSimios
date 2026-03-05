@@ -4,7 +4,6 @@ public class Alumno{
     private double calificacion1=0;
     private double calificacion2=0;
     private double calificacion3=0;
-    private double promedio=0;
 
     
     //Constructor vacio
@@ -19,18 +18,17 @@ public class Alumno{
             this.calificacion1=calificacion1;
             this.calificacion2=calificacion2;
             this.calificacion3=calificacion3;
-            this.promedio=promedio;
     }
 
     //Calcular promedio
-    public void calcularPromedio(){
-        promedio=calificacion1+calificacion2+calificacion3;
+    public double calcularPromedio(){
+        return(calificacion1+calificacion2+calificacion3)/3;
     }
 
     //Mostrar alumno
     public void mostrarAlumno(){
-        System.out.println("Nombre: "+getNombre());
-        System.out.println("Matricula: ");
-        System.out.println("Promedio");
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Matricula: "+matricula);
+        System.out.println("Promedio"+calcularPromedio());
     }
 }
