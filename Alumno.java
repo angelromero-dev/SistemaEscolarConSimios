@@ -12,7 +12,7 @@ public class Alumno{
 
     //Constructor con todo
     public Alumno(String nombre, String matricula, 
-        double calificacion1, double calificacion2, double calificacion3, double promedio){
+        double calificacion1, double calificacion2, double calificacion3){
             this.nombre=nombre;
             this.matricula=matricula;
             this.calificacion1=calificacion1;
