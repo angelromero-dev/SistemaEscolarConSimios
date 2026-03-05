@@ -21,4 +21,21 @@ public class Alumno{
     public void setCalificacion3(double calificacion3){
         this.calificacion3=calificacion3;
     }
+
+    //Getters
+    public String getNombre(){
+        return this.nombre;
+    }
+    public String getMatricula(){
+        return this.matricula;
+    }
+    public double getCalificacion1(){
+        return this.calificacion1;
+    }
+     public double getCalificacion2(){
+        return this.calificacion2;
+    }
+     public double getCalificacion3(){
+        return this.calificacion3;
+    }
 }
